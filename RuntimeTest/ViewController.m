@@ -9,6 +9,7 @@
 #import "ViewController.h"
 #include <objc/runtime.h>
 #import "MyClass.h"
+#import "IsaSwizzlingClass.h"
 
 extern char associatedObjectKey;
 
@@ -21,7 +22,7 @@ extern char associatedObjectKey;
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
-        [self testInvocation];//invocation
+//        [self testInvocation];//invocation
 //        [self testMutiParams];//传递多个参数
 //        [self testAutoAddMethod];//测试调用未实现的方法、
 //        [self testAssociation];//关联对象
@@ -29,7 +30,9 @@ extern char associatedObjectKey;
 //        [self testMetaClass1];//获取元类
 //        [self testGetPrivateVariable];//获取类的所有方法或变量
 //        [self testAmendPrivateVariable];//修改私有变量
-        [self testAmendPrivateMethod];//修改私有函数
+//        [self testAmendPrivateMethod];//修改私有函数
+    
+    [IsaSwizzlingClass test];
     
 }
 

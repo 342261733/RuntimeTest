@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		54583CB21EF8F4040054929B /* IsaSwizzlingClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 54583CB11EF8F4040054929B /* IsaSwizzlingClass.m */; };
+		54583CB51EF8F6630054929B /* ISAClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 54583CB41EF8F6630054929B /* ISAClass.m */; };
 		6E78E6F41C9EC8FA009C9E24 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E78E6F31C9EC8FA009C9E24 /* main.m */; };
 		6E78E6F71C9EC8FA009C9E24 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E78E6F61C9EC8FA009C9E24 /* AppDelegate.m */; };
 		6E78E6FA1C9EC8FA009C9E24 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E78E6F91C9EC8FA009C9E24 /* ViewController.m */; };
@@ -18,6 +20,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		54583CB01EF8F4040054929B /* IsaSwizzlingClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IsaSwizzlingClass.h; sourceTree = "<group>"; };
+		54583CB11EF8F4040054929B /* IsaSwizzlingClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IsaSwizzlingClass.m; sourceTree = "<group>"; };
+		54583CB31EF8F6630054929B /* ISAClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ISAClass.h; sourceTree = "<group>"; };
+		54583CB41EF8F6630054929B /* ISAClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ISAClass.m; sourceTree = "<group>"; };
 		6E78E6EF1C9EC8FA009C9E24 /* RuntimeTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RuntimeTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6E78E6F31C9EC8FA009C9E24 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		6E78E6F51C9EC8FA009C9E24 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -68,6 +74,10 @@
 				6E78E70A1C9EC921009C9E24 /* UIViewController+swizzling.m */,
 				6E78E70B1C9EC921009C9E24 /* MyClass.h */,
 				6E78E70C1C9EC921009C9E24 /* MyClass.m */,
+				54583CB31EF8F6630054929B /* ISAClass.h */,
+				54583CB41EF8F6630054929B /* ISAClass.m */,
+				54583CB01EF8F4040054929B /* IsaSwizzlingClass.h */,
+				54583CB11EF8F4040054929B /* IsaSwizzlingClass.m */,
 				6E78E6F51C9EC8FA009C9E24 /* AppDelegate.h */,
 				6E78E6F61C9EC8FA009C9E24 /* AppDelegate.m */,
 				6E78E6F81C9EC8FA009C9E24 /* ViewController.h */,
@@ -161,8 +171,10 @@
 			files = (
 				6E78E70D1C9EC921009C9E24 /* UIViewController+swizzling.m in Sources */,
 				6E78E6FA1C9EC8FA009C9E24 /* ViewController.m in Sources */,
+				54583CB51EF8F6630054929B /* ISAClass.m in Sources */,
 				6E78E70E1C9EC921009C9E24 /* MyClass.m in Sources */,
 				6E78E6F71C9EC8FA009C9E24 /* AppDelegate.m in Sources */,
+				54583CB21EF8F4040054929B /* IsaSwizzlingClass.m in Sources */,
 				6E78E6F41C9EC8FA009C9E24 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -312,6 +324,7 @@
 				6E78E7081C9EC8FA009C9E24 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
